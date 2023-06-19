@@ -2,13 +2,14 @@
 
 /**
  * binary_tree_node - To create a binary tree node
- * @parent:  the root node
+ * @parent: the root node
  * @value: value of the node
  * Return: new node
  */
+
 binary_tree_t *binary_tree_node(binary_tree_t *parent, int value)
 {
-	binary_tree_t *new_node
+	binary_tree_t *new_node;
 	       
 	new_node = malloc(sizeof(binary_tree_t));
 	if (new_node == NULL)
